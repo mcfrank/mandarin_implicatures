@@ -23,7 +23,7 @@ all_d <- excel_sheets("data/Data_Anonymous.xlsx") %>%
 Clean up data. 
 
 ```{r}
-d <- all_d %>%
+d_raw <- all_d %>%
   select(-target, -contrast, -others, -`numeral exact reading`, 
          -`numeral non-exact reading`, -X__1, -X__2, -`numeral others`, 
          -`scalar others`, -`scalar contrast`, -`scalar target`) %>%
@@ -38,7 +38,13 @@ d <- all_d %>%
   gather(trial, response, starts_with("Trial")) %>%
   mutate(age_years = as.numeric(age_years), 
          trial = as.numeric(str_replace(trial, "Trial", "")),
-         response = as.numeric(response), 
-         quantifier_gloss = )
+         response = as.numeric(response))
+```
+
+Merge in trial structure.
+
+```{r}
+d <- d_raw %>%
+  left_join(read_csv("data/design.csv")) 
 ```
 
