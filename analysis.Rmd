@@ -1,0 +1,44 @@
+---
+title: "Mandarin Implicatures"
+author: "Jie Ren, Peng Zhou, Mike Frank"
+date: "3/7/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+
+# note, have to remove the last sheet, which is empty
+all_d <- excel_sheets("data/Data_Anonymous.xlsx") %>%
+  map_df(function(x) {
+    d <- read_excel("data/Data_Anonymous.xlsx", sheet = x) %>%
+      mutate_all(as.character)
+    d$sheet <- x
+    return(d)
+  })
+```
+
+
+Clean up data. 
+
+```{r}
+d <- all_d %>%
+  select(-target, -contrast, -others, -`numeral exact reading`, 
+         -`numeral non-exact reading`, -X__1, -X__2, -`numeral others`, 
+         -`scalar others`, -`scalar contrast`, -`scalar target`) %>%
+  mutate(sheet = case_when(
+    sheet == " CHILD 4 you" ~ "CHILD 4 you",
+    sheet == " CHILD 4 youxie" ~ "CHILD 4 youxie",
+    sheet == "ADULT you" ~ "ADULT NA you", 
+    sheet == "ADULT youxie" ~ "ADULT NA youxie", 
+    sheet == "ADULT zhuang-le" ~ "ADULT NA zhuang-le",
+    TRUE ~ sheet)) %>% 
+  separate(sheet, sep = " ", into = c("group","age_years","quantifier")) %>%
+  gather(trial, response, starts_with("Trial")) %>%
+  mutate(age_years = as.numeric(age_years), 
+         trial = as.numeric(str_replace(trial, "Trial", "")),
+         response = as.numeric(response), 
+         quantifier_gloss = )
+```
+

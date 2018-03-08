@@ -1,0 +1,105 @@
+trial,prompt,gloss,version,否fou,pos_1,pos_2,pos_3,trial_type,condition,quantifier
+1,我的盒子里有些是桃子,Some of the animals in my box are peaches.,V1,Others,Others,Contrast,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+2,我的盒子里有些是猴子,Some of the animals in my box are monkeys.,V1,Others,target,Others,Contrast,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+3,我的盒子里有两个香蕉,There are two bananas in my box.,V1,,,Exact,Nonexact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+4,我的盒子里有些是橙子,Some of the animals in my box are oranges.,V2,Others,Others,Contrast,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+5,我的盒子里有两个苹果,There are two apples in my box.,V1,,Nonexact,Exact,,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+6,我的盒子里有些是小狗,Some of the animals in my box are dogs.,V1,Others,Contrast,Others,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+7,我的盒子里有两只鸭子,There are two ducks in my box.,V2,Exact,Nonexact,nonexact,,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+8,我的盒子里有些是苹果,Some of the animals in my box are apples.,V2,Others,contrast,Others,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+9,我的盒子里有两个桃子,There are two peaches in my box.,V2,Exact,nonexact,,nonexact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+10,我的盒子里有些是菠萝,Some of the animals in my box are pineapples.,V2,Others,contrast,target,Others,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+11,我的盒子里有些是兔子,Some of the animals in my box are rabbits.,V2,Others,Others,contrast,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+12,我的盒子里有两只小猪,There are two pigs in my box.,V1,,,Exact,nonexact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+13,我的盒子里有两只兔子,There are two rabbits in my box.,V2,Exact,,nonexact,nonexact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+14,我的盒子里有些是芒果,Some of the animals in my box are mangos.,V1,Others,target,contrast,Others,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+15,我的盒子里有两只小狗,There are two dogs in my box.,V1,,nonexact,,Exact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+16,我的盒子里有两个香蕉,There are two bananas in my box.,V2,Exact,,nonexact,nonexact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+17,我的盒子里有两只老虎,There are two tigers in my box.,V1,,,nonexact,Exact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+18,我的盒子里有两个西瓜,There are two watermelons in my box.,V1,,nonexact,,Exact,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+19,我的盒子里有些是小狗,Some of the animals in my box are dogs.,V2,Others,target,Others,contrast,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+20,我的盒子里有些是西瓜,Some of the animals in my box are watermelons.,V1,Others,contrast,Others,target,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+21,我的盒子里有两只猴子,There are two monkeys in my box.,V2,Exact,nonexact,nonexact,,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+22,我的盒子里有些是鸭子,Some of the animals in my box are ducks.,V1,Others,target,contrast,Others,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+23,我的盒子里有两个菠萝,There are two pineapples in my box.,V2,Exact,nonexact,nonexact,,Numeral,Condition 1有些 (some): Scalar implicatures,youxie
+24,我的盒子里有些是小猪,Some of the animals in my box are pigs.,V2,Others,Others,target,contrast,Scalar,Condition 1有些 (some): Scalar implicatures,youxie
+1,我的盒子里装了小羊,My box contains sheep.,V1,others,Target,Contrast,others,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+2,我的盒子里有两个苹果,There are two apples in my box.,V1,,Nonexact,Exact,,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+3,我的盒子里装了橙子,My box contains oranges.,V2,others,others,Target,Contrast,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+4,我的盒子里装了小狗,My box contains dogs.,V2,others,Contrast,others,Target,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+5,我的盒子里有两只鸭子,There are two ducks in my box.,V2,Exact,Nonexact,Nonexact,,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+6,我的盒子里有两只猴子,There are two monkeys in my box.,V2,Exact,Nonexact,Nonexact,,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+7,我的盒子里有两只小狗,There are two dogs in my box. ,V1,,Nonexact,,Exact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+8,我的盒子里装了桃子,My box contains peaches.,V1,others,others,Target,Contrast,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+9,我的盒子里装了猴子,My box contains monkeys.,V2,others,Contrast,Target,others,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+10,我的盒子里有两个芒果,There are two mangoes in my box.,V1,,Exact,Nonexact,,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+11,我的盒子里装了西瓜,My box contains watermelons.,V2,others,Contrast,Target,others,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+12,我的盒子里有两个桃子,There are two peaches in my box.,V2,Exact,Nonexact,,Nonexact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+13,我的盒子里有两只小猫,There are two cats in my box. ,V2,Exact,Nonexact,,Nonexact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+14,我的盒子里装了小狗,My box contains dogs.,V1,others,Target,others,Contrast,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+15,我的盒子里有两个苹果,There are two apples in my box.,V2,Exact,nonexact,,nonexact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+16,我的盒子里装了菠萝,My box contains pineapples.,V1,others,contrast,others,Target,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+17,我的盒子里装了苹果,My box contains apples.,V1,others,Target,contrast,others,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+18,我的盒子里装了小猪,My box contains pigs.,V2,others,others,contrast,Target,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+19,我的盒子里有两个西瓜,There are two watermelons in my box.,V1,,nonexact,,exact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+20,我的盒子里装了菠萝,My box contains pineapples.,V2,others,Target,contrast,others,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+21,我的盒子里有两只老虎,There are two tigers in my box.,V1,,,nonexact,exact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+22,我的盒子里有两个香蕉,There are two bananas in my box.,V2,exact,,nonexact,nonexact,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+23,我的盒子里有两只鸭子,There are two ducks in my box.,V1,,exact,nonexact,,Numeral,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+24,我的盒子里装了猴子,There are two monkeys in my box.,V1,others,contrast,others,Target,Context,Condition 2装了(contains): Context-dependent implicatures,zhang-le
+1,我的盒子里有小猪,There are pigs in my box.,V1,Others,Others,contrast,target,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+2,我的盒子里有猴子,There are monkeys in my box.,V2,Others,contrast,target,Others,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+3,我的盒子里有两只小羊,There are two sheep in my box.,V1,,nonexact,exact,,,Condition 3 有 (there be): Existential you-constructions,you
+4,我的盒子里有两个苹果,There are two apples in my box.,V2,exact,nonexact,,nonexact,,Condition 3 有 (there be): Existential you-constructions,you
+5,我的盒子里有鸭子,There are ducks in my box.,V2,Others,target,contrast,Others,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+6,我的盒子里有两个香蕉,There are two bananas in my box.,V2,exact,,nonexact,nonexact,,Condition 3 有 (there be): Existential you-constructions,you
+7,我的盒子里有西瓜,There are watermelons in my box.,V2,Others,contrast,target,Others,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+8,我的盒子里有两只老虎,There are two tigers in my box.,V1,,,nonexact,exact,,Condition 3 有 (there be): Existential you-constructions,you
+9,我的盒子里有两个菠萝,There are two pineapples in my box.,V2,exact,nonexact,nonexact,,,Condition 3 有 (there be): Existential you-constructions,you
+10,我的盒子里有菠萝,There are pineapples in my box.,V1,Others,contrast,Others,target,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+11,我的盒子里有两个芒果,There are two mangoes in my box.,V1,,exact,nonexact,,,Condition 3 有 (there be): Existential you-constructions,you
+12,我的盒子里有小狗,There are doggies in my box.,V2,Others,contrast,Others,target,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+13,我的盒子里有橙子,There are oranges in my box.,V2,Others,Others,target,contrast,,Condition 3 有 (there be): Existential you-constructions,you
+14,我的盒子里有小狗,There are doggies in my box.,V1,Others,target,Others,contrast,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+15,我的盒子里有两只猴子,There are two monkeys in my box.,V2,exact,nonexact,nonexact,,,Condition 3 有 (there be): Existential you-constructions,you
+16,我的盒子里有桃子,There are peaches in my box.,V2,Others,contrast,Others,target,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+17,我的盒子里有两个苹果,There are two apples in my box.,V1,,nonexact,exact,,,Condition 3 有 (there be): Existential you-constructions,you
+18,我的盒子里有两只小猪,There are two pigs in my box.,V2,Exact,,nonexact,nonexact,,Condition 3 有 (there be): Existential you-constructions,you
+19,我的盒子里有两只小猫,There are two kittens in my box.,V2,exact,nonexact,,nonexact,,Condition 3 有 (there be): Existential you-constructions,you
+20,我的盒子里有桃子,There are peaches in my box.,V1,Others,Others,target,contrast,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+21,我的盒子里有香蕉,There are bananas in my box.,V1,Others,Others,contrast,target,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+22,我的盒子里有两个桃子,There are two peaches in my box.,V1,,,nonexact,exact,,Condition 3 有 (there be): Existential you-constructions,you
+23,我的盒子里有老虎,There are tigers in my box.,V1,Others,Others,target,contrast,Exist.,Condition 3 有 (there be): Existential you-constructions,you
+24,我的盒子里有两只鸭子,There are two ducks in my box.,V1,,exact,nonexact,,,Condition 3 有 (there be): Existential you-constructions,you
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
